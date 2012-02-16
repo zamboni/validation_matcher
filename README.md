@@ -1,5 +1,5 @@
-Validation Matchers
-===================
+Validation Matcher
+==================
 
 Use Rails 3 validation reflection to test validations.
 
@@ -9,7 +9,7 @@ Installation
 Add to your Gemfile and run the `bundle` command to install it.
 
   ```ruby
-  gem 'validation_matchers'
+  gem 'validation_matcher'
   ```
 
 **Re  quires Ruby 1.9.2 or later.**

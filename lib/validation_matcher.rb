@@ -1,6 +1,6 @@
-require 'validation_matchers/version'
+require 'validation_matcher/version'
 
-module ValidationMatchers
+module ValidationMatcher
 
   RSpec::Matchers.define :validate do |kind, expected_options|
 
