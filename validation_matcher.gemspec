@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ['BM5k']
   s.email       = ['me@bm5k.com']
   s.homepage    = ""
-  s.summary     = 'TODO: Write a gem summary'
-  s.description = 'TODO: Write a gem description'
+  s.summary     = 'RSpec matcher for ActiveModel validations'
+  s.description = 'Use reflection to spec ActiveModel validations'
 
   s.rubyforge_project = 'validation_matcher'
 
