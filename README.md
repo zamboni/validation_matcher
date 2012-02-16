@@ -12,7 +12,7 @@ Add to your Gemfile and run the `bundle` command to install it.
   gem 'validation_matcher'
   ```
 
-**Re  quires Ruby 1.9.2 or later.**
+**Requires Ruby 1.9.2 or later.**
 
 Usage
 -----
