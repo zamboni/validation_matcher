@@ -1,7 +1,16 @@
 Validation Matcher
 ==================
 
+About
+-----
+
 Use Rails 3 validation reflection to test validations.
+
+URLs:
+
+- Github:             https://github.com/bm5k/validation_matcher/
+- Documentation:      http://rubydoc.info/github/BM5k/validation_matcher/master/frames
+- RubyGems:           https://rubygems.org/gems/validation_matcher
 
 Installation
 ------------
