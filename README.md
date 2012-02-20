@@ -1,5 +1,5 @@
-Validation Matcher
-==================
+Validation Matcher [![build status][status-image]][ci]
+======================================================
 
 About
 -----
@@ -44,3 +44,9 @@ Usage
 
   end
   ```
+
+<!-- links -->
+[ci]: http://travis-ci.org/BM5k/validation_matcher "build status"
+
+<!-- images -->
+[status-image]: https://secure.travis-ci.org/BM5k/validation_matcher.png?branch=master
