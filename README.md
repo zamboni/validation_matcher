@@ -35,13 +35,11 @@ Usage
 
   require 'spec_helper'
 
-  describe Subscription do
-
-    its(:field_a) { should validate :presence }
-    its(:field_b) { should validate :uniqueness }
-    its(:field_c) { should validate :presence }
-    its(:field_c) { should validate :uniqueness, { case_insensitive: false }}
-
+  describe Foo do
+    it { should validate(:presence).of(:field_a) }
+    it { should validate(:presence).of(:field_b) }
+    it { should validate(:presence).of(:field_c).with(case_insensitive: false) }
+    it { should validate(:uniqueness).of(:field_b).with(options) }
   end
   ```
 
