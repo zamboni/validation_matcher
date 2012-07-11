@@ -4,7 +4,6 @@ libs = %w[
   pry
   pry-nav
   rspec
-  rspec-expectations
   validation_matcher
 ]
 

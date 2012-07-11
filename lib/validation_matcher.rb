@@ -1,6 +1,5 @@
 require 'validation_matcher/version'
 require 'rspec'
-require 'rspec-expectations'
 
 module ValidationMatcher
 
