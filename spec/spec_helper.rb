@@ -1,4 +1,14 @@
-%w[ rspec validation_matcher active_support/core_ext active_model pry pry-nav ].each { |lib| require lib }
+libs = %w[
+  active_model
+  active_support/core_ext
+  pry
+  pry-nav
+  rspec
+  rspec-expectations
+  validation_matcher
+]
+
+libs.each { |lib| require lib }
 
 class Thing
 
