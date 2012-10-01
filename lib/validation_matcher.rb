@@ -42,7 +42,9 @@ module ValidationMatcher
     end
 
     match do |actual|
-      validator.present? and diff.blank?
+      result = validator.present? and diff.blank?
+      @expected_options = nil # for some reason this appears to be cached between runs?
+      result
     end
 
   end
