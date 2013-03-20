@@ -1,5 +1,5 @@
-Validation Matcher [![build status][status-image]][ci]
-======================================================
+Validation Matcher [![build status][ci-image]][ci] [![code climate][cc-image]][cc]
+==================================================================================
 
 About
 -----
@@ -44,7 +44,9 @@ Usage
   ```
 
 <!-- links -->
+[cc]: https://codeclimate.com/github/BM5k/validation_matcher "code climate"
 [ci]: http://travis-ci.org/BM5k/validation_matcher "build status"
 
 <!-- images -->
-[status-image]: https://secure.travis-ci.org/BM5k/validation_matcher.png?branch=master
+[cc-image]: https://codeclimate.com/github/BM5k/validation_matcher.png
+[ci-image]: https://secure.travis-ci.org/BM5k/validation_matcher.png?branch=master
