@@ -1,6 +1,7 @@
 libs = %w[
   active_model
   active_support/core_ext
+  pry
   rspec
   validation_matcher
 ]
